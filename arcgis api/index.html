@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><!--html file begin-->
+  <head><!--head begins-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title><!--Document is the title of webpage-->
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.29/esri/themes/light/main.css"
+    /><!--This CSS file contains styling information that defines 
+      the visual appearance of various components and elements within web applications built using the ArcGIS API.-->
+    <script src="https://js.arcgis.com/4.29/"></script><!--This file is commonly used to initialize and configure the 
+      ArcGIS API for use in web applicationsThis file is commonly used to initialize and configure the ArcGIS API 
+      for use in web applications-->
+
+    <link rel="stylesheet" href="style.css" /><!--connect with style.css file in this folder-->
+    <script src="app.js"></script><!--connect with app.js file in this folder-->
+  </head><!--head ends-->
+  <body><!--body begins-->
+    <header id="header">
+      <h1>Testing Arcgis API 4.x</h1>
+    </header> <!--header contains h1 header-->
+
+    <div id="mapContainer"><!--1st div for map-->
+      <div id="viewDiv"></div><!--2nd div for viewDiv??!-->
+      <div id="controls"><!--3rd div for adds controls to control the map-->
+        <select id="fieldSelect1"><!---->
+          <option value="">Select Field 1</option>
+        </select>
+        <br /><!--for new line-->
+        <input
+          type="text"
+          id="filterInput1"
+          placeholder="Enter value for Field 1"
+        /><!-- input with type text -->
+      </div>
+      <div id="controls2">
+        <select id="fieldSelect2"><!---->
+          <option value="">Select Field 2</option>
+        </select>
+        <br /><!--for new line-->
+        <input
+          type="text"
+          id="filterInput2"
+          placeholder="Enter value for Field 2"
+        /><!-- input with type text -->
+      </div>
+      
+    </div>
+
+    <div id="footer"><!--footer div-->
+      <p>Developed with ArcGIS API for JavaScript</p>
+    </div>
+  </body>
+</html>

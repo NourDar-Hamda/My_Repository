@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+body {
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  height: 100px;
+}
+
+#mapContainer {
+  position: relative;
+  height: calc(100vh - 165px);/*this height= calculate 100% from viewport height -165px */
+  width: 100%;
+}
+
+#controls {
+  position: absolute;/* that means the poition of controls will not change */
+  top: 15px;
+  left: 60px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#controls2 {
+  position: absolute;/* that means the poition of controls will not change */
+  top: 15px;
+  left: 300px;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#filterInput1 {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#fieldSelect1 {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+#filterInput2 {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#fieldSelect2 {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+}
+
+#viewDiv {
+  width: 100%;
+  height: 100%;
+}
